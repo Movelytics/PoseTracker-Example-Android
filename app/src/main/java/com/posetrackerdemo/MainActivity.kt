@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
     // API request your token provided on our dashboard on posetracker.com (It's free <3)
     var API_KEY: String = "REPLACE_THIS_WITH_YOUR_posetracker.com_API_KEY"
     // Below is the main url to reach our API
-    var POSETRACKER_API_URL : String = "https://posetracker.com/pose_tracker/tracking"
+    var POSETRACKER_API_URL : String = "https://app.posetracker.com/pose_tracker/tracking"
     // Our API request the exercise you want to track and count
     var exercise : String = "squat"
     // Our API request the difficulty of the exercise (by default it's set to normal)
